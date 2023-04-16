@@ -2,15 +2,10 @@
 /* Even though you may have entered this bg colors, without content, the bg will still be white. */
 /* Add a p tag or h1 tag of anything to activate the gradient color. */
 body {
-  background: #c31432; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #240b36,
-    #c31432
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #240b36,
-    #c31432
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #00b4db; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0083b0, #00b4db);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0083b0, #00b4db);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
